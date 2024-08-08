@@ -2,7 +2,7 @@
 
 Este repositorio contiene el proyecto de la asignatura de Gestión de Servicios y Tecnologías de la Información del grado de Ingeniería de la Salud.
 
-**La aplicación desarrollada, HUA+, está enfocada en la gestión y provisión de información sobre la Hemorragia Uterina Anormal (HUA), dirigida tanto a pacientes como a profesionales médicos.**
+La aplicación desarrollada, HUA+, está enfocada en la **gestión y provisión de información sobre la Hemorragia Uterina Anormal (HUA)**, dirigida tanto a pacientes como a profesionales médicos.
 
 ## Descripción del Proyecto
 
