@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">HUA+</string>
+    <string name="pedir_cita">Pedir Cita</string>
+    <string name="historial_citas">Historial Citas</string>
+    <string name="sobre_HUA">Sobre HUA</string>
+    <string name="calendario_menstrual">Calendario Menstrual</string>
+    <string name="abrir_calendario">Abrir Calendario</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="informacion_personal">Información Personal</string>
+    <string name="email">Correo electrónico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="fecha_nacimiento">Fecha Nacimiento</string>
+    <string name="telefono">Teléfono</string>
+    <string name="sexo">Sexo:</string>
+    <string name="n_c">N/C</string>
+    <string name="mujer">Mujer</string>
+    <string name="hombre">Hombre</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="acceder">Acceder</string>
+    <string name="acceder_sin_registro">Acceder sin registrarse</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="que_es_la_hua">¿Qué es la HUA?</string>
+    <string name="signos_sintomas">Signos y síntomas</string>
+    <string name="causa_HUA">¿Qué causa la HUA?</string>
+    <string name="peligroso">¿Es peligroso?</string>
+    <string name="diagnostica">¿Cómo se diagnostica?</string>
+    <string name="tto">Tratamiento</string>
+    <string name="cuido">¿Cómo me cuido?</string>
+    <string name="contactar">Contactar con médico</string>
+    <string name="ecografia">Ecografía</string>
+    <string name="histeroscopia">Histeroscopia</string>
+    <string name="analisis_sangre">Análisis de sangre</string>
+    <string name="biopsia">Biopsia</string>
+    <string name="papanicolaou">Prueba de Papanicolaou</string>
+    <string name="ex_pelvico">Examen pélvico</string>
+    <string name="distintas_pruebas">Haz click para ver las distintas pruebas</string>
+    <string name="title_activity_tratamiento">TratamientoActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_aineactivity">AINEActivity</string>
+    <string name="paciente">Paciente</string>
+    <string name="medico">Médico</string>
+
+
+</resources>
