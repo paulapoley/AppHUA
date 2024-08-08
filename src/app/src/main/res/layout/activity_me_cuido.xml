@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MeCuidoActivity">
+
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="365dp"
+        android:layout_height="100dp"
+        android:layout_margin="1dp"
+        android:background="@color/azuloscuro"
+        android:gravity="center"
+        android:text="Consuma alimentos con un alto contenido de hierro de ser necesario.Para ver algunos ejemplos de alimentos con un alto contenido de hierro haz click en el enlace. "
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/autolink_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:gravity="center"
+        android:text="https://www.cun.es/chequeos-salud/vida-sana/nutricion/alimentos-ricos-hierro"
+        android:textColorLink="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="365dp"
+        android:layout_height="80dp"
+        android:layout_margin="1dp"
+        android:layout_marginTop="81dp"
+        android:background="@color/azul"
+        android:gravity="center"
+        android:text="Lleve un diario de sus periodos menstruales. Anote la cantidad de tampones o compresas que usa a diario"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto1"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/texto3"
+        android:layout_width="365dp"
+        android:layout_height="140dp"
+        android:layout_margin="1dp"
+        android:layout_marginTop="38dp"
+        android:background="@color/verde"
+        android:gravity="center"
+        android:text="Es posible que deba esperar a que la hemorragia anormal se haya detenido para tratar de bajar de peso. Consulte con su médico antes de comenzar un programa para bajar de peso y pregunte si la pérdida de peso ayudará a controlar la HUA."
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto2"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/texto4"
+        android:layout_width="365dp"
+        android:layout_height="97dp"
+        android:layout_margin="1dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/lima"
+        android:gravity="center"
+        android:text="Podrá indicarle cúal es el peso saludable para usted además de ayudarle a crear un plan para perder peso de manera segura, si lo necesita. "
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:barrierMargin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto3"
+        app:layout_constraintVertical_bias="0.198" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

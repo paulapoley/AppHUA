@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondo"
+    android:layout_height="match_parent"
+    tools:context=".SignosySintomasActivity">
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="287dp"
+        android:layout_height="61dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Hemorragia que comienza 12 meses o más tarde después de haber pasado la menopausia"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.130" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="287dp"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Sangrado más o menos abundante que de costumbre durante sus periodos menstruales"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.360" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
+        android:text="---->"
+        android:textColor="@color/fuerte"
+        android:textSize="45sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/t3"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="287dp"
+        android:layout_height="66dp"
+        android:background="@color/white"
+        android:text="Intervalo de tiempo más corto a o más largo que de constumbre entre sus periodos menstruales"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.600" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="287dp"
+        android:layout_height="46dp"
+        android:background="@color/white"
+        android:text="Sangra menos que de constumbre o menos de 2 días"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.480" />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="287dp"
+        android:layout_height="46dp"
+        android:background="@color/white"
+        android:text="Sangrado o manchass de sangre entre los periodos menstruales"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.250"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="287dp"
+        android:layout_height="66dp"
+        android:background="@color/white"
+        android:text="Si el sangrado continua, se puede acabar sufriendo déficit de hierro y en ocasiones anemia"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.740"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="287dp"
+        android:layout_height="66dp"
+        android:background="@color/white"
+        android:text="La aparición de infertibilidad depende de la causa de la hemorragia uterina disfuncional"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
+        android:text="---->"
+        android:textColor="@color/fuerte"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/t3"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
+        android:text="---->"
+        android:textColor="@color/fuerte"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/t3"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738" />
+
+    <TextView
+        android:id="@+id/t12"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
+        android:text="---->"
+        android:textColor="@color/fuerte"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/t3"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/t13"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
+        android:text="---->"
+        android:textColor="@color/fuerte"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/t3"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467" />
+
+    <TextView
+        android:id="@+id/t14"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
+        android:text="---->"
+        android:textColor="@color/fuerte"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/t3"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <TextView
+        android:id="@+id/t15"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
+        android:text="---->"
+        android:textColor="@color/fuerte"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/t3"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
