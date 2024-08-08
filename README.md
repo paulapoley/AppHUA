@@ -14,7 +14,7 @@ HUA+ es una aplicación móvil desarrollada en **Android Studio** utilizando **K
 - `/docs/`: Incluye la planificación, estimación de costes, análisis de riesgos y otros documentos relevantes del proyecto. También contiene:
   - Modelos de procesos creados en **BonitaSoft**.
   - Prototipos creados con **Moqups** y otros recursos de diseño.
-  - El documento [`App-HUA+.pdf`](docs/App-HUA+.pdf), que se encuentra dividido en dos partes: **BPMN** y la parte visual de la aplicación móvil.
+  - El documento [`APP-HUA+.pdf`](docs/APP-HUA+.pdf), que se encuentra dividido en dos partes: **BPMN** y la parte visual de la aplicación móvil. 
 
 ## Modelado de Procesos
 
